@@ -1,14 +1,14 @@
 /* Cores principais */
 body {
-  background-color: #f5f5f5;
-  color: #333333;
+  background-color: #f5f5f5; /* Cor 1: fundo claro */
+  color: #333333;            /* Cor 2: texto escuro */
   font-family: Arial, sans-serif;
   margin: 0 auto;
   max-width: 800px;
   padding: 20px;
 }
 
-/* Centralização */
+/* Centralização e estrutura */
 main {
   background-color: #ffffff;
   padding: 20px;
@@ -27,12 +27,13 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #0066cc;
+  color: #0066cc; /* Cor 3: azul para os links */
   font-weight: bold;
 }
 
+/* Pseudo-classe hover */
 nav ul li a:hover {
-  color: #ff6600;
+  color: #ff6600; /* Quarta cor opcional no hover */
 }
 
 /* Imagens */
@@ -47,7 +48,7 @@ nav ul li a:hover {
 /* Classes e IDs */
 .destaque {
   font-size: 20px;
-  color: #cc0000;
+  color: #cc0000; /* Cor diferente para destacar */
   font-family: 'Georgia', serif;
 }
 
@@ -57,7 +58,8 @@ nav ul li a:hover {
   color: #008800;
 }
 
-/* Outras fontes */
+/* Título com fonte diferente */
 h1 {
   font-family: 'Verdana', sans-serif;
 }
+
